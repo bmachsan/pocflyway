@@ -25,3 +25,7 @@ ignoreNewlinesInTextObjects = "off"
 [environments.target1]
 url = "jdbc:postgresql://localhost:5432/postgres"
 schemas = [ "public" ]
+
+[environments.userrole]
+url = "jdbc:postgresql://localhost:5432/userrole"
+schemas = [ "public" ]

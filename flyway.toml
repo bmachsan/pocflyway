@@ -22,10 +22,10 @@ filterFile = "filter.rgf"
 [redgateCompare.postgresql.options.ignores]
 ignoreNewlinesInTextObjects = "off"
 
-[environments.target1]
-url = "jdbc:postgresql://localhost:5432/postgres"
+[environments.dev]
+url = "jdbc:postgresql://localhost:5433/postgres"
 schemas = [ "public" ]
 
-[environments.userrole]
+[environments.stg]
 url = "jdbc:postgresql://localhost:5432/userrole"
 schemas = [ "public" ]

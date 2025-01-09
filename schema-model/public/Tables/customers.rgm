@@ -1,0 +1,13 @@
+index "public"."customers_email_key" {
+  table = "public"."customers"
+  type = btree
+  columns = <
+    {
+      definition = email
+    }
+
+  >
+  isUnique = True
+  isConstraint = true
+}
+
